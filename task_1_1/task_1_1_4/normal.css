@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*利用元素高度宽度方法固定进行水平垂直定位*/
+main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-color: white;	
+}
+main div{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-100px 0 0 -200px;
+	overflow: hidden;
+}
+/*画出两个半径为50px的四分之一圆，并利用绝对定位实现效果*/
+#left,#right{
+	background-color:#fc0;
+}
+#left{
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+#right{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+
+	position: absolute;
+	left: 550px;
+	top: 250px;
+}

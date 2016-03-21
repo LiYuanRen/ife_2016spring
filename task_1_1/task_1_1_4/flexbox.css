@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*利用flexbox对灰色部分进行水平水质方向的定位*/
+main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;	
+}
+main div{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: relative;
+	overflow: hidden;
+}
+/*画出两个半径为50px的圆，进行绝对定位，并对溢出部分进行隐藏*/
+#left,#right{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color:#fc0;
+}
+#left{
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+#right{
+	position: absolute;
+	left: 350px;
+	bottom: -50px;
+}
