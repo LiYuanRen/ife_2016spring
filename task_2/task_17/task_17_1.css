@@ -1,0 +1,15 @@
+#chart{
+	padding: 0;
+	margin: 0;
+}
+#aqi-chart-wrap{
+	position: relative;
+	height: 600px;
+	width:1300px;
+	margin: 0 auto;
+}
+#aqi-chart-wrap div{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+}

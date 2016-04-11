@@ -1,0 +1,12 @@
+#number-chart{
+	height: 150px;
+	width: 1300px;
+	position: relative;
+}
+#number-chart div{
+	display: inline-block;
+	width: 20px;
+	position: absolute;
+	bottom: 0px;
+	color: white;
+}
