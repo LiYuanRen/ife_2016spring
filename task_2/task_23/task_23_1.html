@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task23</title>
+    <link rel="stylesheet" href="task_23_1.css">    
+</head>
+<body>
+    <article>
+        <h2>多叉树的遍历</h2>
+        <div class="graph">
+            <div class="root">
+                sports
+                <div>
+                    ten
+                    <div>
+                        man
+                        <div>fede</div>
+                        <div>xluo</div>
+                    </div>
+                    <div>
+                        wman
+                        <div>w1</div>
+                    </div>
+                </div>
+                <div>
+                    football
+                    <div>
+                        man
+                        <div>
+                            Cluo
+                            <div>wo</div>
+                        </div>
+                        <div>meisi</div>
+                    </div>
+                </div>
+                <div>ping
+                    <div>w3</div>
+                </div>
+            </div>
+        </div>
+        <div class="operator">
+            <div class="traversal">
+                遍历&nbsp;
+                <button id="travelDFS">深度优先遍历</button>
+                <button id="travelBFS">广度优先遍历</button>
+            </div>
+            <div class="search">
+                <label for="search">查询</label>
+                <input type="text" name="search" id="search" placeholder="添加查询词后点击搜索">
+                <button id="searchDFS">深度优先搜索</button>
+                <button id="searchBFS">广度优先搜索</button>
+            </div>
+        </div>
+    </article>
+    <script src="task_23_1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+div {
+    width: calc(50% - 22.5px);
+    height: calc(100% - 30px);
+    max-width: 700px;
+    max-height: 300px;
+    margin: 15px 0 0 15px;
+    position: relative;
+    float: left;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 50px auto 0;
+}

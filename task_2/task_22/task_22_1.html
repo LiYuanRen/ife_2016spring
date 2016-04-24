@@ -3,42 +3,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>任务二十二：JavaScript和树（一）</title>
-    <style>
-        html, body {
-            height: 100%;
-            width: 100%;
-            position: relative;
-            text-align: center;
-        }
-
-        div {
-            width: calc(50% - 22.5px);
-            height: calc(100% - 30px);
-            max-width: 700px;
-            max-height: 300px;
-            margin: 15px 0 0 15px;
-            position: relative;
-            float: left;
-            border: 1px solid;
-            box-sizing: border-box;
-            background-color: #fff;
-        }
-
-        #root {
-            position: absolute;
-            left: 0;
-            right: 0;
-            margin: 50px auto 0;
-        }
-    </style>
+    <title>task_22</title>
+    <link rel="stylesheet" type="text/css" href="task_22_1.css">
 </head>
 <body>
-<h1>任务二十二：JavaScript和树（一）</h1>
+<p>
+    <button id="preOrder">前序遍历</button>
+    <button id="inOrder">中序遍历</button>
+    <button id="postOrder">倒序遍历</button>
+    <label>速度：</label><input type="text" value="200"></input><label>ms</label>
+</p>
 <div id="root">
     <div>
         <div>
-            <div id="child-1"></div>
+            <div></div>
             <div></div>
         </div>
         <div>
@@ -46,7 +24,7 @@
             <div></div>
         </div>
     </div>
-    <div>
+    <div >
         <div>
             <div></div>
             <div></div>
@@ -57,13 +35,7 @@
         </div>
     </div>
 </div>
-<p>
-    <button onclick="traversal('pre')">前序遍历</button>
-    <button onclick="traversal('in')">中序遍历</button>
-    <button onclick="traversal('post')">倒序遍历</button>
-    <label for="set-time">闪烁间隔</label>
-    <input id="set-time" type="number" value="1000">ms
-</p>
-<script src="js/task022.js"></script>
+<script src="task_22_2.js"></script>
+<script src="task_22_3.js"></script>
 </body>
 </html>
